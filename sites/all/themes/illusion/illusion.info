@@ -1,0 +1,80 @@
+name = Illusion Theme
+description = Responsive Drupal 7 Theme by Arrowhitech JSC. 
+core = 7.x
+engine = phptemplate
+version = 1.0
+
+stylesheets[all][] = css/custom.css
+stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/font-awesome.min.css
+stylesheets[all][] = css/fontello.css
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/theme-animate.css
+stylesheets[all][] = plugins/flexslider/flexslider.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = plugins/jackbox/css/jackbox.min.css
+;stylesheets[all][] = plugins/rs-plugin/css/settings.css
+stylesheets[all][] = plugins/colorpicker/colorpicker.css
+;stylesheets[all][] = plugins/jackbox/css/jackbox-audio.min.css
+stylesheets[all][] = plugins/jackbox/css/jackbox-ie8.css
+stylesheets[all][] = plugins/jackbox/css/jackbox-ie9.css
+stylesheets[all][] = plugins/jackbox/css/jackbox-video.min.css.css
+stylesheets[all][] = plugins/layerslider/css/layerslider.css
+stylesheets[all][] = plugins/owl-carousel/owl.carousel.css
+stylesheets[all][] = plugins/owl-carousel/owl.transitions.css
+;stylesheets[all][] = plugins/owl-carousel/JSFiddle_files/codemirror.css
+;stylesheets[all][] = plugins/owl-carousel/JSFiddle_files/elusive-webfont.css
+;stylesheets[all][] = plugins/owl-carousel/JSFiddle_files/light.css
+;stylesheets[all][] = plugins/owl-carousel/JSFiddle_files/normalize.css
+;stylesheets[all][] = plugins/owl-carousel/JSFiddle_files/result-light.css
+;stylesheets[all][] = plugins/owl-carousel/JSFiddle_files/screen.css
+;stylesheets[all][] = plugins/owl-carousel/JSFiddle_files/tricks.css
+
+;stylesheets[all][] = plugins/rs-plugin/css/settings-ie8.css
+
+regions[top_bar] = Top Bar
+regions[top_bar_header_4] = Top Bar Header 4
+regions[top_bar_header_6] = Top Bar Header 6
+regions[language] = Language
+regions[header_advertising] = Header Advertising
+regions[header_shop_by] = Header Shop By
+regions[menu] = Menu
+regions[sidemenu] = Side Menu
+
+regions[content] = Content
+regions[bottom_content] = Bottom Content
+regions[after_content] = After Content
+regions[after_content_no_wrap] = After Content No Wrap
+regions[sidebar_left] = Left Sidebar
+regions[sidebar_right] = Right Sidebar
+
+regions[footer_1] = Footer Box 1
+regions[footer_2] = Footer Box 2
+regions[footer_3] = Footer Box 3
+regions[footer_4] = Footer Box 4
+regions[footer_5] = Footer Box 5
+regions[footer_6] = Footer Box 6
+regions[footer_7] = Footer Box 7
+regions[footer_bottom] = Footer Bottom
+
+
+; Define theme setting defaults.
+settings[breadcrumbs] = '1'
+;settings[header_1] = header-style-1
+;settings[header_2] = header-style-2
+;settings[header_3] = header-style-3
+settings[footer_1] = footer-style-1
+settings[footer_2] = footer-style-2
+settings[footer_3] = footer-style-3
+settings[footer_4] = footer-style-4
+settings[footer_5] = footer-style-5
+settings[footer_6] = footer-style-6
+
+settings[switcher] = 1
+settings[layout_option] = wide
+settings[menu_option] = sticky_menu
+settings[header_option] = header_1
+settings[footer_option] = footer1
+settings[background_type] = color
+settings[background_color] = #2c2b44
+
