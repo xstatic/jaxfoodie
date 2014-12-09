@@ -305,10 +305,12 @@
 				// countdown
 
 				if($(pluginsCollection[5]).length){
-					var newYear = new Date(); 
-					newYear = new Date(newYear.getFullYear() + 2, -7, 1); 
+					//var newYear = new Date(); 
+					//newYear = new Date(newYear.getFullYear() + 2, -7, 1); 
+					var setDate = new Date();
+					setDate = new Date("January 15, 2015 12:00:00"); // or another date time
 					$(pluginsCollection[5]).countdown({
-						until: newYear,
+						until: setDate,
 						layout:'<div class="row"><div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 m_xs_bottom_30">'+
 						'<dl class="border_light r_corners_2"><dt class="m_bottom_23">{d<}{dn}<hr class="divider_type_5"></dt><dd class="tt_uppercase color_grey_light_3">{dl}</dd></dl></div> {d>}'+ 
 	    					'<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 m_xs_bottom_30">'+
